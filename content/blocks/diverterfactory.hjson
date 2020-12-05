@@ -1,0 +1,24 @@
+name: Diverter Factory
+description: Makes Diverter units.
+type: UnitFactory
+unitType: diverter
+size: 2
+produceTime: 100
+maxSpawn: 12
+consumes: {
+  power: 2
+  items: {
+    items: [
+	astron/1
+	silicon/2
+    ]
+  }
+}
+category: units
+research: an
+requirements: [
+  astron/20
+  clc/40
+  silicon/20
+  titanium/80
+]

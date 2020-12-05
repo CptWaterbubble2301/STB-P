@@ -1,0 +1,31 @@
+type: mech
+name: Armadillo
+description: A heavy ground unit with a lot of health, and a dual mini-AAC turret.
+hitsize: 8
+hitsizeTile: 6
+speed: 0.05
+health: 1200
+attackLength: 0
+range: 80
+attackLength: 300
+rotatespeed: 0.05
+baseRotateSpeed: 0.05
+shootCone: 5
+rotateWeapon: false
+weapon: {
+  name: armadillogun
+  length: 1.5
+  reload: 2
+  alternate: true
+  bullet: {
+    type: basicBulletType
+    frontColor: fff242
+    backColor: ffffff
+	speed: 25
+	damage:10
+	lifetime: 6
+	pierce: true
+	bulletWidth:4
+	bulletHeight:16
+	}
+}

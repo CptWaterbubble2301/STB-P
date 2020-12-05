@@ -1,0 +1,60 @@
+type: ItemTurret
+name: Small Blaster
+description: A little less pew
+health: 200
+size: 1
+reload: 4
+range: 100
+inaccuracy: 2
+rotatespeed: 12
+ammo: {
+  clc: {
+    speed: 7
+    damage: 15
+    frontColor: 7dd4c4
+    backColor: 5abfc9
+    bulletWidth: 5
+    bulletHeight: 11
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+  }
+  crimsonite: {
+    speed: 5
+    damage: 20
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+  blastic: {
+    speed: 6
+    damage: 20
+    bulletWidth: 7
+    bulletHeight: 11
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+  }
+  tcbullet: {
+    speed: 10
+    damage: 35
+    bulletWidth: 7
+    bulletHeight: 16
+    frontColor: d86d19
+    backColor: 3c3935
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+    pierce: true
+    reloadMultiplier: 1.5
+  }
+}
+requirements: [
+  crimsonite/20
+  copper/30
+  lead/30
+]
+category: turret
+research: crimsonite-forge

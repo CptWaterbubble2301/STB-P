@@ -1,0 +1,86 @@
+type: ItemTurret
+name: Blaster
+description: Pew
+health: 800
+size: 2
+reload: 2
+range: 200
+inaccuracy: 3
+rotatespeed: 12
+heatColor: ff0000
+ammo:
+{
+clc:
+	{
+    frontColor: 7dd4c4
+    backColor: 5abfc9
+	speed: 10
+	damage:5
+	lifetime: 50
+	ammoMultiplier: 25
+	fragBullets: 5
+	fragBullet:
+	{
+	type: basicBulletType
+	lifetime: 10
+	damage: 2
+	speed: 6
+	}
+	}
+crimsonite:
+	{
+	"type": "MissileBulletType"
+	frontColor: ffdddd
+	backColor: ff1111
+	speed: 10
+	damage:7
+	splashDamageRadius: 8
+	splashDamage: 7
+	lifetime: 50
+	homingPower: 2
+	homingRange: 32
+	ammoMultiplier: 25
+	}
+blastic:
+	{
+	"type": "MissileBulletType"
+	frontColor: ffdddd
+	backColor: ff1111
+	speed: 7
+	damage:11
+	splashDamageRadius: 8
+	splashDamage: 4
+	lifetime: 50
+	homingPower: 2
+	homingRange: 32
+	ammoMultiplier: 25
+	fragBullets: 2
+	fragBullet:
+	{
+	type: basicBulletType
+	lifetime: 5
+	homingPower: 4
+	homingRange: 16
+	damage: 2
+	splashDamageRadius: 8
+	splashDamage: 6
+	}
+	}
+tcbullet:
+	{
+	frontColor: d86d19
+	backColor: 3c3935
+	speed: 20
+	damage:20
+	lifetime: 50
+	ammoMultiplier: 25
+	pierce: true
+	reloadMultiplier: 2
+	}
+}
+requirements: [
+  blastic/40
+  titanium/70
+]
+category: turret
+research: blastic-compressor

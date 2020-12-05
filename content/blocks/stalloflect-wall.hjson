@@ -1,0 +1,13 @@
+type: DeflectorWall
+name: Stalloflect Wall
+description: A wall made of Tungsten Carbide, with Stalloblast panelling. Can reflect a lot of very tough bullets.
+health: 1500
+size: 1
+hitTime: 3
+maxDamageDeflect: 100
+requirements: [
+  tungstencarbide/8
+  stalloblast/2
+]
+category: defense
+research: wulfric-tungsten-carbylator

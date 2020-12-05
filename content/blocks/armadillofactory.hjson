@@ -1,0 +1,25 @@
+name: Armadillo Factory
+description: Makes Armadillo units.
+type: UnitFactory
+unitType: armadillo
+size: 3
+produceTime: 1000
+maxSpawn: 2
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      silicon/20
+      clc/30
+      archaium-crystal/2
+    ]
+  }
+}
+category: units
+research: aac
+requirements: [
+  clc/30
+  silicon/20
+  titanium/80
+  archaium-crystal/10
+]

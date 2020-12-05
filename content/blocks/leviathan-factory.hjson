@@ -1,0 +1,24 @@
+name: Leviathan Factory
+description: Makes Leviathan units.
+type: UnitFactory
+unitType: leviathan
+size: 5
+produceTime: 800
+maxSpawn: 2
+consumes: {
+  power: 4
+  items: {
+    items: [
+	astron/10
+	silicon/30
+    ]
+  }
+}
+category: units
+research: diverterfactory
+requirements: [
+  astron/40
+  clc/80
+  silicon/60
+  titanium/140
+]
