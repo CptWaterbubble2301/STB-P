@@ -1,9 +1,9 @@
-type: ChargeTurret
+type: PowerTurret
 name: Astron Energy Compressor
 description: A turret that shoots, for lack of a better word, homing energy bubbles.
 health: 800
 size: 2
-reload: 2
+reloadTime: 2
 chargeTime: 3
 range: 200
 inaccuracy: 40

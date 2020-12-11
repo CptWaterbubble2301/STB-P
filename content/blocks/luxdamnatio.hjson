@@ -1,40 +1,39 @@
-type: ChargeTurret
+type: PowerTurret
 name: Lux Damnatio
 description: The TRUE ultimate weapon.
 health: 9000
 size: 8
-reload: 10
-chargeTime: 10
+reloadTime: 10
+chargeTime: 5
 burstSpacing: 0
-range: 2000
-inaccuracy: 5
+range: 1500
+inaccuracy: 0.5
 rotatespeed: 12
-firingMoveFract: 0.1
+firingMoveFract: 1
 shootDuration: 500
 powerUse: 400
 shootEffect: none
 smokeEffect: none
-shootSound: explosion
+shootSound: laserblast
 chargeBeginEffect: lancerLaserShoot
 chargeEffect: lancerLaserCharge
 recoil: 6
 cooldown: 0.002
 heatColor: ffffff
 shootType: {
-	type: basicBulletType
-	frontColor: e200ff
-	backColor: f290ff
+	type: laserBulletType
+	continuous: true
+	colors: ["2e008f","6a00b4","ae48d9","f290ff"]
 	damage: 1200
+	length: 1700
 	hitSound: explosionBig
-	bulletHeight: 10
-	bulletWidth: 10
-	lifetime: 100
-	speed: 20
-	homingPower: 0.5
-	homingRange: 500
-	splashDamage: 1000
-	splashDamageRadius: 200
-	hitEffect: nuclearShockwave
+	Width: 30
+	lifetime: 50
+	splashDamage: 500
+	splashDamageRadius: 20
+	sideAngle: 180
+	sideLength: 30
+	sideWidth: 1
 }
 requirements: [
   stalloblast/180

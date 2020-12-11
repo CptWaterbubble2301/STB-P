@@ -1,0 +1,29 @@
+type: flying
+name: Swarmer
+description: Not that strong, but there'll be many of them.
+speed: 5
+flying: true
+health: 200
+engineOffset: 5.5
+range: 220
+rotateSpeed: 60
+baseRotateSpeed: 0.5
+attackLength: 300
+shootCone: 25
+weapons: [
+{
+  name: swpregun
+  length: 1.5
+  reload: 6
+  alternate: true
+x:1
+  bullet: {
+    speed: 7
+    damage: 5
+    frontColor: f6b482
+    backColor: ad866a
+    bulletWidth: 5
+    bulletHeight: 11
+}
+}
+]

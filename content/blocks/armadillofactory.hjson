@@ -1,7 +1,6 @@
-name: Armadillo Factory
-description: Makes Armadillo units.
+name: Experimental Assembly Plant
+description: Makes Experimental T1 units.
 type: UnitFactory
-unitType: armadillo
 size: 3
 produceTime: 1000
 maxSpawn: 2
@@ -10,16 +9,32 @@ consumes: {
   items: {
     items: [
       silicon/20
-      clc/30
-      archaium-crystal/2
+      RefinedScrap/30
     ]
   }
 }
 category: units
 research: aac
 requirements: [
-  clc/30
+  RefinedScrap/30
   silicon/20
-  titanium/80
-  archaium-crystal/10
+  copper/80
 ]
+plans: [
+{
+   unit: sleggy
+   time: 600
+   requirements: [
+      silicon/10
+      RefinedScrap/20
+    ]
+    }
+{
+   unit: swpre
+   time: 400
+   requirements: [
+      silicon/10
+      RefinedScrap/10
+    ]
+    }
+    ]

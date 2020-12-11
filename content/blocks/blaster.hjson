@@ -3,12 +3,12 @@ name: Blaster
 description: Pew
 health: 800
 size: 2
-reload: 2
+reloadTime: 2
 range: 200
 inaccuracy: 3
 rotatespeed: 12
 heatColor: ff0000
-ammo:
+ammoTypes:
 {
 clc:
 	{

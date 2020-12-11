@@ -1,4 +1,4 @@
-type: DeflectorWall
+type: Wall
 name: Stalloflect Wall
 description: A wall made of Tungsten Carbide, with Stalloblast panelling. Can reflect a lot of very tough bullets.
 health: 1500

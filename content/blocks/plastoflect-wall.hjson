@@ -1,4 +1,4 @@
-type: DeflectorWall
+type: Wall
 name: Plastoflect Wall
 description: A wall made of Blastic, with Archaic panelling. Can reflect some tougher bullets.
 health: 700

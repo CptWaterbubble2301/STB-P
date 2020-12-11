@@ -1,7 +1,7 @@
 type: flying
 name: Leviathan
 description: stronk
-speed: 0.2
+speed: 0.8
 flying: true
 health: 2000
 attackLength: 0
@@ -14,7 +14,8 @@ rotatespeed: 0.1
 baseRotateSpeed: 0.1
 shootCone: 5
 rotateWeapon: false
-weapon: {
+weapons: [
+{
   name: wolfhammergun
   length: 1.5
   reload: 130
@@ -39,3 +40,4 @@ weapon: {
 	splashDamageRadius: 20
 	}
 }
+]

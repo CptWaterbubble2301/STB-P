@@ -4,12 +4,12 @@ description: Advanced fluid turret, capable of compressing most fluids into burs
 health: 800
 size: 2
 range: 350
-reload: 25
+reloadTime: 25
 rotatespeed: 12
 hasLiquids: true
 liquidCapacity: 20
 inaccuracy: 3
-ammo: {
+ammoTypes: {
 	nanites: {
 	type: MissileBulletType
 	speed: 9

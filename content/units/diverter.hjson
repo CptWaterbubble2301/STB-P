@@ -1,21 +1,23 @@
 type: flying
 name: Diverter
 description: Incredibly weak on their own. Made to distract defenses from other units.
-speed: 0.7
+speed: 5
 flying: true
 health: 30
 engineOffset: 0
 range: 70
-rotatespeed: 1
+rotateSpeed: 4
 baseRotateSpeed: 1
 attackLength: 200
 shootCone: 25
-weapon: {
+weapons: [{
   name: divertergun
   length: 1.5
   reload: 2
   alternate: true
-  bullet: {
+  x: 1
+  bullet: 
+{
     shootEffect: none
     smokeEffect: none
     despawnEffect: none
@@ -29,3 +31,4 @@ weapon: {
     bulletHeight: 4
 }
 }
+]

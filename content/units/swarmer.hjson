@@ -1,20 +1,23 @@
 type: flying
-name: Swarmer
-description: Not that strong, but there'll be many of them.
-speed: 0.5
+name: Armored Swarmer
+description: Slightly tougher and stronger than it's scrappy counterpart, but a bit slower.
+speed: 3.5
 flying: true
-health: 30
+health: 300
 engineOffset: 5.5
-range: 120
-rotatespeed: 0.5
+range: 220
+rotateSpeed: 60
 baseRotateSpeed: 0.5
-attackLength: 200
+attackLength: 300
 shootCone: 25
-weapon: {
+
+weapons:[
+{
   name: swarmergun
   length: 1.5
   reload: 10
   alternate: true
+x:1
   bullet: {
     speed: 7
     damage: 15
@@ -24,3 +27,4 @@ weapon: {
     bulletHeight: 11
 }
 }
+]

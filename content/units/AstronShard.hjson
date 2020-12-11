@@ -1,14 +1,15 @@
 type: flying
 name: Astron Shard
 description: WIP
-speed: 3
+speed: 4
 boostSpeed: 5
 engineColor: "e200ff"
 flying: true
 health: 3000
-drillPower: 15
-buildPower: 5
-weapon: {
+mineTier: 15
+buildSpeed: 5
+weapons: [
+{
   name: shardgun
   length: 1.5
   reload: 4
@@ -36,4 +37,4 @@ weapon: {
     
 }
 }
-
+]

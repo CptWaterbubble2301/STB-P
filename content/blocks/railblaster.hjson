@@ -3,13 +3,13 @@ name: Avalon RT
 description: Shoots highly accelerated tungsten carbide shells
 health: 800
 size: 2
-reload: 12
+reloadTime: 12
 range: 300
 inaccuracy: 2
 rotatespeed: 12
 heatColor: ff9f00
 cooldown: 0.06
-ammo:
+ammoTypes:
 {
 tcbullet:
 	{

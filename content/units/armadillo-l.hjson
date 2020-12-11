@@ -1,0 +1,44 @@
+type: legs
+name: Armadillo
+description: A heavy ground unit with a lot of health, and an experimental plasma projector cannon.
+hitSize: 12
+hitSizeTile:8
+speed: 0.4
+health: 1200
+attackLength: 0
+range: 200
+attackLength: 600
+rotateSpeed: 0.5
+baseRotateSpeed: 0.5
+shootCone: 5
+rotateWeapon: false
+legGroupSize: 14
+legCount: 8
+legLength: 20
+allowLegStep: true
+hovering: true
+rotateShooting: false
+targetAir: true
+weapons: [{
+  name: armadillogun-l
+  length: 1.5
+  reload: 1
+  mirror: false
+  rotate: true
+  shootSound: sap
+  x: 0
+  shake: 0
+  shootY: 8
+    ejectEffect: none
+  bullet: {
+	type: laserBulletType
+	continuous: true
+	colors: ["fff242","fff576","fdf69c","fffabc"]
+	damage: 5
+	length: 50
+	width: 15
+	sideAngle: 160
+	sideLength: 10
+	sideWidth: 0.5
+	lifetime: 2
+}}]

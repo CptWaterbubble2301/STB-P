@@ -1,4 +1,4 @@
-type: GenericCrafter
+type: GenericSmelter
 name: Crimsonite Forge
 description: Combines titanium and blast compound powder to produce Crimsonite.
 size: 2
@@ -24,3 +24,4 @@ idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: crimsonite/2
 research: blast-mixer
+flameColor: ff0000

@@ -1,0 +1,15 @@
+name: Scrap Drill
+description: A cheap drill made of assorted scrap. Faster than a mechanical drill, and lightly armoured.
+type: Drill
+health: 200
+size: 2
+tier: 2
+drillTime: 800
+rotateSpeed: 2
+requirements: [
+  RefinedScrap/10
+  copper/10
+  lead/5
+]
+category: production
+research: ssorter

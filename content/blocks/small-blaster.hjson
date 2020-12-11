@@ -3,11 +3,11 @@ name: Small Blaster
 description: A little less pew
 health: 200
 size: 1
-reload: 4
+reloadTime: 4
 range: 100
 inaccuracy: 2
 rotatespeed: 12
-ammo: {
+ammoTypes: {
   clc: {
     speed: 7
     damage: 15

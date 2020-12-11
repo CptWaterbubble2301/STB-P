@@ -1,9 +1,9 @@
-type: ChargeTurret
+type: PowerTurret
 name: Astron Nanocharger
 description: Small charged weapon. Strong in numbers.
 health: 400
 size: 1
-reload: 20
+reloadTime: 20
 chargeTime: 20
 range: 150
 inaccuracy: 0
