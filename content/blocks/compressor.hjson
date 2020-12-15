@@ -6,9 +6,9 @@ baseEfficiency: 0.1
 rotateSpeed: 10
 hasPower: false
 requirements: [
-  RefinedScrap/60
-  copper/40
-  lead/20
+  RefinedScrap/40
+  copper/20
+  lead/15
 ]
 result: air
 category: production

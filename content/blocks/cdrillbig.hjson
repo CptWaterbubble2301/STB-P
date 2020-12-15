@@ -1,0 +1,15 @@
+name: CLC Drill
+description: A carbion-free pneumatic-tier drill. Cannot be boosted.
+type: Drill
+health: 400
+size: 2
+tier: 3
+drillTime: 400
+rotateSpeed: 2
+requirements: [
+  clc/80
+  copper/60
+  lead/40
+]
+category: production
+research: clc-press

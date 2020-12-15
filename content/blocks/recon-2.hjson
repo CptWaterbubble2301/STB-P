@@ -7,6 +7,7 @@ upgrades:
 [
 [AstronShard, leviathan],
 [leggy, armadillo],
+[swarmer, bomber],
 ]
 consumes: {
     items: {
@@ -19,7 +20,7 @@ consumes: {
 }
 category: units
 research: recon-1
-requirements: [
+requirements:[
   crimsonite/20
   blastic/40
   silicon/60

@@ -3,7 +3,7 @@ name: Small Blaster
 description: A little less pew
 health: 200
 size: 1
-reloadTime: 4
+reloadTime: 6
 range: 100
 inaccuracy: 2
 rotatespeed: 12
@@ -13,8 +13,8 @@ ammoTypes: {
     damage: 15
     frontColor: 7dd4c4
     backColor: 5abfc9
-    bulletWidth: 5
-    bulletHeight: 11
+    width: 4
+    height: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 10
@@ -22,8 +22,8 @@ ammoTypes: {
   crimsonite: {
     speed: 5
     damage: 20
-    bulletWidth: 7
-    bulletHeight: 9
+   width: 4
+    height: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 5
@@ -31,8 +31,8 @@ ammoTypes: {
   blastic: {
     speed: 6
     damage: 20
-    bulletWidth: 7
-    bulletHeight: 11
+    width: 4
+    height: 6
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
     ammoMultiplier: 10
@@ -40,8 +40,8 @@ ammoTypes: {
   tcbullet: {
     speed: 10
     damage: 35
-    bulletWidth: 7
-    bulletHeight: 16
+    width: 3
+    height: 7
     frontColor: d86d19
     backColor: 3c3935
     shootEffect: shootSmall

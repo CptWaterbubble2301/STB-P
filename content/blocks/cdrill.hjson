@@ -1,4 +1,4 @@
-name: CLC Drill
+name: Tiny CLC Drill
 description: A very compact drill. Cannot be boosted.
 type: Drill
 health: 200
@@ -8,9 +8,8 @@ drillTime: 400
 rotateSpeed: 2
 requirements: [
   clc/40
-  graphite/20
   copper/40
   lead/20
 ]
 category: production
-research: clc-press
+research: cdrillbig

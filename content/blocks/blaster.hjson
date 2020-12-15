@@ -3,7 +3,7 @@ name: Blaster
 description: Pew
 health: 800
 size: 2
-reloadTime: 2
+reloadTime: 3
 range: 200
 inaccuracy: 3
 rotatespeed: 12
@@ -29,7 +29,7 @@ clc:
 	}
 crimsonite:
 	{
-	"type": "MissileBulletType"
+	"type": basicBulletType
 	frontColor: ffdddd
 	backColor: ff1111
 	speed: 10
@@ -43,7 +43,7 @@ crimsonite:
 	}
 blastic:
 	{
-	"type": "MissileBulletType"
+	"type": basicBulletType
 	frontColor: ffdddd
 	backColor: ff1111
 	speed: 7

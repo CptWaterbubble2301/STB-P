@@ -4,7 +4,7 @@ description: Extracts the most useful bits of metal from scrap.
 size: 2
 hasItems: true
 hasPower: false
-craftTime: 50
+craftTime: 70
 consumes: {
   items: {
     items: [

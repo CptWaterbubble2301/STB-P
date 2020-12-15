@@ -30,8 +30,8 @@ weapons: [
     damage:10
     lifetime: 10
     pierce: true
-    Width:4
-    Height:16
+    width:4
+    height:16
     }
 }
 ]

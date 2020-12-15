@@ -20,8 +20,8 @@ shootType: {
 	frontColor: e200ff
 	backColor: f290ff
 	damage: 35
-	bulletHeight: 3
-	bulletWidth: 8
+	height: 5
+	width: 5
 	lifetime: 15
 	speed: 15
 	pierce: true

@@ -19,8 +19,8 @@ shootType: {
 	frontColor: e200ff
 	backColor: f290ff
 	damage: 75
-	bulletHeight: 4
-	bulletWidth: 12
+	height: 6
+	width: 8
 	lifetime: 96
 	speed: 8
 	drag: 0.02

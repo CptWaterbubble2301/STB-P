@@ -15,8 +15,8 @@ ammoTypes:
 clc:
 	{
 	"type": "ArtilleryBulletType"
-	bulletWidth: 6
-	bulletHeight: 12
+	width: 6
+	height: 12
 	collides: true
 	collidesAir: true
     	frontColor: 7dd4c4
@@ -50,8 +50,8 @@ clc:
 crimsonite:
 	{
 	"type": "ArtilleryBulletType"
-	bulletWidth:8
-	bulletHeight:12
+	width:8
+	height:12
 	collides: true
 	collidesAir: true
 	frontColor: ffdddd
@@ -66,8 +66,8 @@ crimsonite:
 blastic:
 	{
 	"type": "ArtilleryBulletType"
-	bulletWidth:8
-	bulletHeight:12
+	width:8
+	height:12
 	collides: true
 	collidesAir: true
 	frontColor: ffdddd
@@ -95,8 +95,8 @@ blastic:
 stalloblast:
 	{
 	"type": "ArtilleryBulletType"
-	bulletWidth:8
-	bulletHeight:16
+	width:8
+	height:16
 	reloadMultiplier: 1.7
 	collides: true
 	collidesAir: true
@@ -126,8 +126,8 @@ stalloblast:
 tcbullet:
 	{
 	"type": "ArtilleryBulletType"
-	bulletWidth:8
-	bulletHeight:16
+	width:8
+	height:16
 	reloadMultiplier: 3
 	collides: true
 	collidesAir: true

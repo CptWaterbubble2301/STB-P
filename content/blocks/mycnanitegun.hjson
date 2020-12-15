@@ -14,8 +14,8 @@ ammoTypes: {
 	type: MissileBulletType
 	speed: 9
 	amount: 5
-	bulletWidth:20
-	bulletHeight:20
+	width:20
+	height:20
 	frontColor: 80e9ff
   	backColor: e1e2e3
 	damage: 1
@@ -43,8 +43,8 @@ ammoTypes: {
 	type: MissileBulletType
 	speed: 9
 	amount: 5
-	bulletWidth:20
-	bulletHeight:20
+	width:20
+	height:20
 	frontColor: 0d080d
   	backColor: 47084f
 	damage:40
@@ -86,8 +86,8 @@ ammoTypes: {
 
 	slag: {
 	type: MissileBulletType
-	bulletWidth:20
-	bulletHeight:35
+	width:20
+	height:35
 	speed: 7
 	splashDamageRadius: 25
 	splashDamage: 50
@@ -109,8 +109,8 @@ ammoTypes: {
 	reloadMultiplier: 10
 	frontColor: 0d080d
   	backColor: 000000
-	bulletWidth:10
-	bulletHeight:20
+	width:10
+	height:20
 	damage: 5
 	fragBulets: 30
 	fragBullet:{
@@ -129,8 +129,8 @@ ammoTypes: {
 	reloadMultiplier: 15
 	frontColor: 90f9ff
   	backColor: d0ffff
-	bulletWidth:8
-	bulletHeight:15
+	wWidth:8
+	height:15
 	damage: 3
 	fragBulets: 30
 	fragBullet:{

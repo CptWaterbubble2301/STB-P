@@ -18,8 +18,8 @@ hmtbullet:
 	"type": "MissileBulletType"
     frontColor: fff242
     backColor: ff00ff
-	bulletWidth:5
-	bulletHeight:20
+	width:5
+	height:20
 	speed: 12
 	damage:250
 	lifetime: 100
@@ -34,8 +34,8 @@ tcbullet:
 	"type": "MissileBulletType"
 	frontColor: d86d19
 	backColor: 3c3935
-	bulletWidth:5
-	bulletHeight:30
+	width:5
+	height:30
 	speed: 30
 	damage: 500
 	lifetime: 100
