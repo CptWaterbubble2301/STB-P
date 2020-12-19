@@ -19,6 +19,7 @@ legLength: 4
 allowLegStep: true
 hovering: false
 mechStepParticles: false
+research: armadillofactory
 weapons: [
 {
   name: sleggygun

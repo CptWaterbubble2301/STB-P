@@ -4,7 +4,6 @@ description: very stronk
 speed: 0.2
 flying: true
 health: 10000
-attackLength: 0
 engineOffset: 10
 engineSize: 3.7
 engineColor: "e200ff"
@@ -14,11 +13,11 @@ rotatespeed: 0.1
 baseRotateSpeed: 0.1
 shootCone: 5
 rotateWeapon: false
-weapon: {
+research:leviathan
+weapons:[{
   name: wolfhammergun
   length: 1.5
   reload: 10
-  alternate: true
   alternate: true
   bullet: {
 	shootEffect: none
@@ -26,15 +25,15 @@ weapon: {
 	frontColor: e200ff
 	backColor: f290ff
 	damage: 200
-	bulletHeight: 16
-	bulletWidth: 16
+	height: 16
+	width: 16
 	lifetime: 160
 	speed: 5
 	drag: 0
 	pierce: true
 	bulletShrink: 0
 	knockback: 0
-	splashDamage: 150
+	splashDamage: 50
 	splashDamageRadius: 20
 	}
-}
+}]

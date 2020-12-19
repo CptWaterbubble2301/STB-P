@@ -19,6 +19,7 @@ allowLegStep: true
 hovering: true
 rotateShooting: false
 targetAir: true
+research: recon-3
 weapons: [{
   name: armadillogun-l
   length: 1.5

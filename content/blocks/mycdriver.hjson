@@ -1,5 +1,5 @@
 type: MassDriver
-name: "Mycollic Mass Accelerator"
+name: "Mycrollic Mass Accelerator"
 description: "A compacted mass driver. Same range, more speed, less space."
 size: 2
 hasPower: true

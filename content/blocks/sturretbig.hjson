@@ -7,9 +7,11 @@ reloadTime:150
 range: 300
 inaccuracy: 0
 rotatespeed: 12
-heatColor: f4f0dc
 shootSound: pew
 ammoPerShot: 5
+heatColor: ff0000
+shootEffect: steam
+smokeEffect: shootSmallSmoke
 ammoTypes: {
 sbullet:
 	{

@@ -16,6 +16,7 @@ legGroupSize: 4
 legCount: 6
 allowLegStep: true
 hovering: true
+research: recon-1
 weapons: [
 {
   name: armadillogun

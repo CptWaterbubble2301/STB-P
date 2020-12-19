@@ -10,7 +10,7 @@ rotateSpeed: 60
 baseRotateSpeed: 0.5
 attackLength: 300
 shootCone: 25
-
+research: recon-1
 weapons:[
 {
   name: swarmergun

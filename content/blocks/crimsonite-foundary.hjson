@@ -1,5 +1,5 @@
 type: GenericSmelter
-name: Crimsonite Forge
+name: Crimsonite Foundary
 description: Combines titanium and spores to produce Crimsonite more easily, and faster, but at a larger profile.
 size: 4
 hasPower: true
@@ -15,9 +15,11 @@ consumes: {
   }
 }
 requirements: [
-  lead/50
+  titanium/80
   thorium/60
-  silicon/60
+  silicon/100
+  crimsonite/40
+  blastic/20
 ]
 category: crafting
 idleSound: respawning

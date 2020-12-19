@@ -1,5 +1,5 @@
 type: GenericCrafter
-name: "Mycrosilicat Refiner"
+name: "Mycrosilicate Refiner"
 description: "A more efficient and compact silicon smelter that does not require coal."
 liquidCapacity: 200
 size: 2

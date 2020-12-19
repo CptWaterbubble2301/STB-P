@@ -5,6 +5,8 @@ health: 300
 size: 1
 laserRange: 12
 maxNodes: 50
+laserColor1: 00d2ff
+laserColor2: 0000ee
 requirements: [
   mycrocluster/10
   silicon/5

@@ -10,6 +10,7 @@ rotateSpeed: 60
 baseRotateSpeed: 0.5
 attackLength: 300
 shootCone: 25
+research: armadillofactory
 weapons: [
 {
   name: swpregun

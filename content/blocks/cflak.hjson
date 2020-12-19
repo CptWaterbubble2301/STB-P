@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Ceramoflak
-description: A flak turret loaded with CLC. Specifically made to accept nonrefined ammunition.
+description: A flak turret usually loaded with CLC. Made to also accept nonrefined ammunition.
 health: 800
 size: 2
 reloadTime: 40
@@ -22,6 +22,8 @@ clc:
 	lifetime: 14
 	damage: 5
 	ammoMultiplier: 25
+	collidesGround: true
+	collides: true
 	fragBullets: 9
 	fragBullet:{
 	type: FlakBulletType
@@ -32,6 +34,8 @@ clc:
 	speed: 15
 	damage: 1
 	lifetime: 4
+	collidesGround: true
+	collides: true
 	}
 	}
 lead:
@@ -46,6 +50,8 @@ lead:
 	splashDamageRadius: 5
 	splashDamage: 10
 	reloadMultiplier: 1.5
+	collidesGround: true
+	collides: true
 	}
 copper:
 	{

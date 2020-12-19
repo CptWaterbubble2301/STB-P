@@ -13,14 +13,13 @@ consumes: {
     items: {
         items: [
             clc/30
-            metaglass/20
             silicon/25
         ]
     }
     power: 3
 }
 category: units
-research: clc-press
+research: armadillofactory
 requirements: [
   lead/40
   clc/80

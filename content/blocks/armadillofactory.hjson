@@ -14,7 +14,7 @@ consumes: {
   }
 }
 category: units
-research: aac
+research: ground-factory
 requirements: [
   RefinedScrap/30
   silicon/20

@@ -8,6 +8,8 @@ range: 100
 rotatespeed: 12
 heatColor: ff0000
 inaccuracy: 2
+shootEffect: steam
+smokeEffect: shootSmallSmoke
 ammoTypes:{
 RefinedScrap:
 	{

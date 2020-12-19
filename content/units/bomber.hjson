@@ -11,6 +11,9 @@ rotateSpeed: 10
 baseRotateSpeed: 0.5
 rotateShooting: false
 faceTarget: true
+research: recon-2
+hitSize: 8
+hitSizeTile: 6
 weapons:[
 {
   name: bomberdrop

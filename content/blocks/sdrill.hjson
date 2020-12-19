@@ -4,7 +4,7 @@ type: Drill
 health: 200
 size: 2
 tier: 2
-drillTime: 800
+drillTime: 550
 rotateSpeed: 2
 requirements: [
   RefinedScrap/10

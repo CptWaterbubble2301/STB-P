@@ -10,7 +10,6 @@ rotatespeed: 12
 shootEffect: steam
 smokeEffect: shootSmallSmoke
 shootSound: spray
-consume: [liquid: nanites]
 ammoTypes: {
   sand: {
    trailEffect: steam

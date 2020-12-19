@@ -20,6 +20,7 @@ legLength: 4
 LegMoveSpace: 4
 allowLegStep: true
 hovering: false
+research: recon-1
 weapons: [
 {
   name: leggygun
