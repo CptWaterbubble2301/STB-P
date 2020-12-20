@@ -11,7 +11,15 @@ rotateSpeed: 1
 baseRotateSpeed: 0.3
 rotateShooting: false
 faceTarget: true
-research: recon-3
+research: {
+    parent: recon-3
+    requirements:
+    [
+        {item: clc, amount: 1000},
+        {item: archaium-crystal, amount: 300},
+        {item: silicon, amount: 1300}
+    ]
+}
 visualElevation: 100
 hitSize: 14
 hitSizeTile: 12

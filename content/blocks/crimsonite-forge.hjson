@@ -16,7 +16,7 @@ consumes: {
 }
 requirements: [
   lead/50
-  thorium/60
+  titanium/60
   silicon/60
 ]
 category: crafting

@@ -5,12 +5,21 @@ speed: 5
 flying: true
 health: 200
 engineOffset: 5.5
-range: 220
 rotateSpeed: 60
 baseRotateSpeed: 0.5
 attackLength: 300
 shootCone: 25
-research: armadillofactory
+commandLimit: 16
+circleTarget: true
+hover: false
+research: {
+    parent: armadillofactory
+    requirements:
+    [
+        {item: RefinedScrap, amount: 200},
+        {item: silicon, amount: 200}
+    ]
+}
 weapons: [
 {
   name: swpregun

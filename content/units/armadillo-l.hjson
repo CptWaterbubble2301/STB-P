@@ -1,6 +1,6 @@
 type: legs
-name: Armadillo
-description: A heavy ground unit with a lot of health, and an experimental plasma projector cannon.
+name: Ankylosaur
+description: A heavy ground unit with a lot of health, and an experimental short range plasma projector cannon.
 hitSize: 12
 hitSizeTile:8
 speed: 0.4
@@ -19,7 +19,15 @@ allowLegStep: true
 hovering: true
 rotateShooting: false
 targetAir: true
-research: recon-3
+research: {
+    parent: recon-3
+    requirements:
+    [
+        {item: clc, amount: 1000},
+        {item: archaium-crystal, amount: 300},
+        {item: silicon, amount: 1300}
+    ]
+}
 weapons: [{
   name: armadillogun-l
   length: 1.5

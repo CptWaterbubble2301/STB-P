@@ -14,7 +14,15 @@ rotatespeed: 0.1
 baseRotateSpeed: 0.1
 shootCone: 5
 rotateWeapon: false
-research:diverter
+research: {
+    parent: AstronShard
+    requirements:
+    [
+        {item: astron, amount: 600},
+        {item: crimsonite, amount: 400},
+        {item: silicon, amount: 1500}
+    ]
+}
 weapons: [
 {
   name: wolfhammergun

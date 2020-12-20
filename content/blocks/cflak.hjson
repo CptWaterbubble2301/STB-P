@@ -24,7 +24,7 @@ clc:
 	ammoMultiplier: 25
 	collidesGround: true
 	collides: true
-	fragBullets: 9
+	fragBullets: 5
 	fragBullet:{
 	type: FlakBulletType
 	frontColor: ffffff

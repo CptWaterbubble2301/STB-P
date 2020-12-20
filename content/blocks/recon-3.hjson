@@ -12,9 +12,9 @@ upgrades:
 consumes: {
     items: {
         items: [
-            clc/30
-            silicon/40
-	archaium-crystal/20
+            clc/100
+            silicon/130
+	archaium-crystal/30
         ]
     }
     power: 3

@@ -7,9 +7,9 @@ tier: 3
 drillTime: 400
 rotateSpeed: 2
 requirements: [
-  clc/80
-  copper/60
-  lead/40
+  clc/15
+  copper/20
+  lead/20
 ]
 category: production
 research: clc-press

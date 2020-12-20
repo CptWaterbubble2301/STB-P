@@ -7,9 +7,9 @@ tier: 3
 drillTime: 400
 rotateSpeed: 2
 requirements: [
-  clc/40
-  copper/40
-  lead/20
+  clc/10
+  copper/10
+  lead/5
 ]
 category: production
 research: cdrillbig

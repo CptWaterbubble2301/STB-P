@@ -10,7 +10,17 @@ rotateSpeed: 60
 baseRotateSpeed: 0.5
 attackLength: 300
 shootCone: 25
-research: recon-1
+commandLimit: 16
+circleTarget: true
+hover: false
+research: {
+    parent: recon-1
+    requirements:
+    [
+        {item: clc, amount: 600},
+        {item: silicon, amount: 500}
+    ]
+}
 weapons:[
 {
   name: swarmergun

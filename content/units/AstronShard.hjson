@@ -8,6 +8,15 @@ flying: true
 health: 3000
 mineTier: 15
 buildSpeed: 5
+research: {
+    parent: diverter
+    requirements:
+    [
+        {item: astron, amount: 400},
+        {item: clc, amount: 200},
+        {item: silicon, amount: 1000}
+    ]
+}
 weapons: [
 {
   name: shardgun

@@ -1,12 +1,12 @@
 type: ItemTurret
 name: Blaster
-description: Pew
+description: Medium-sized multipurpose turret, pretty long range. Pew!
 health: 800
 size: 2
 reloadTime: 3
-range: 200
+range: 230
 inaccuracy: 3
-rotatespeed: 12
+rotateSpeed: 15
 heatColor: ff0000
 ammoTypes:
 {
@@ -15,7 +15,7 @@ clc:
     frontColor: 7dd4c4
     backColor: 5abfc9
 	speed: 10
-	damage:5
+	damage: 15
 	lifetime: 50
 	ammoMultiplier: 25
 	fragBullets: 5
@@ -23,7 +23,7 @@ clc:
 	{
 	type: basicBulletType
 	lifetime: 10
-	damage: 2
+	damage: 5
 	speed: 6
 	}
 	}
@@ -33,9 +33,9 @@ crimsonite:
 	frontColor: ffdddd
 	backColor: ff1111
 	speed: 10
-	damage:7
-	splashDamageRadius: 8
-	splashDamage: 7
+	damage: 20
+	splashDamageRadius: 10
+	splashDamage: 10
 	lifetime: 50
 	homingPower: 2
 	homingRange: 32
@@ -47,23 +47,23 @@ blastic:
 	frontColor: ffdddd
 	backColor: ff1111
 	speed: 7
-	damage:11
+	damage: 25
 	splashDamageRadius: 8
 	splashDamage: 4
 	lifetime: 50
 	homingPower: 2
 	homingRange: 32
 	ammoMultiplier: 25
-	fragBullets: 2
+	fragBullets: 4
 	fragBullet:
 	{
 	type: basicBulletType
 	lifetime: 5
 	homingPower: 4
 	homingRange: 16
-	damage: 2
-	splashDamageRadius: 8
-	splashDamage: 6
+	damage: 5
+	splashDamageRadius: 10
+	splashDamage: 10
 	}
 	}
 tcbullet:
@@ -71,7 +71,7 @@ tcbullet:
 	frontColor: d86d19
 	backColor: 3c3935
 	speed: 20
-	damage:20
+	damage: 25
 	lifetime: 50
 	ammoMultiplier: 25
 	pierce: true

@@ -1,6 +1,6 @@
 type: ItemTurret
 name: Small Blaster
-description: A little less pew
+description: A small multipurpose gun. A little less pew.
 health: 200
 size: 1
 reloadTime: 6

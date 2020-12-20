@@ -16,7 +16,15 @@ legGroupSize: 4
 legCount: 6
 allowLegStep: true
 hovering: true
-research: recon-1
+research: {
+    parent: recon-2
+    requirements:
+    [
+        {item: crimsonite, amount: 200},
+        {item: blastic, amount: 500},
+        {item: silicon, amount: 400}
+    ]
+}
 weapons: [
 {
   name: armadillogun

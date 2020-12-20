@@ -25,5 +25,5 @@ category: crafting
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: crimsonite/3
-research: blast-mixer
+research: crimsonite-forge
 flameColor: ff0000

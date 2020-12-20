@@ -11,7 +11,17 @@ rotateSpeed: 10
 baseRotateSpeed: 0.5
 rotateShooting: false
 faceTarget: true
-research: recon-2
+circleTarget: true
+hover: false
+research: {
+    parent: recon-2
+    requirements:
+    [
+        {item: crimsonite, amount: 200},
+        {item: blastic, amount: 500},
+        {item: silicon, amount: 400}
+    ]
+}
 hitSize: 8
 hitSizeTile: 6
 weapons:[

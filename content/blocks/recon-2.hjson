@@ -12,8 +12,9 @@ upgrades:
 consumes: {
     items: {
         items: [
-            blastic/30
-            silicon/25
+            blastic/50
+            crimsonite/20
+            silicon/40
         ]
     }
     power: 3

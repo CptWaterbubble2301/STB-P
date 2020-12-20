@@ -20,7 +20,15 @@ legLength: 4
 LegMoveSpace: 4
 allowLegStep: true
 hovering: false
-research: recon-1
+commandLimit: 16
+research: {
+    parent: recon-1
+    requirements:
+    [
+        {item: clc, amount: 600},
+        {item: silicon, amount: 500}
+    ]
+}
 weapons: [
 {
   name: leggygun

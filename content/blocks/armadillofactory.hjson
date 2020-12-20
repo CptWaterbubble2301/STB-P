@@ -9,7 +9,7 @@ consumes: {
   items: {
     items: [
       silicon/20
-      RefinedScrap/30
+      RefinedScrap/20
     ]
   }
 }
@@ -26,7 +26,7 @@ plans: [
    time: 600
    requirements: [
       silicon/10
-      RefinedScrap/20
+      RefinedScrap/10
     ]
     }
 {

@@ -3,6 +3,7 @@ name: Astron Dephaser
 description: Reforms stalloblast and astryl into astrollic wafers, for processing into astron.
 liquidCapacity: 100
 size: 3
+flameColor: c920c9
 hasPower: true
 hasLiquids: true
 hasItems: true

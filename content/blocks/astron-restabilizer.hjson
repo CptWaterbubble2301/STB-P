@@ -3,6 +3,7 @@ name: Astron Restabilizer
 description: Reforms astrollic wafers into Astron, and astrolyte as a side product.
 liquidCapacity: 100
 size: 3
+flameColor: c920c9
 hasPower: true
 hasLiquids: true
 hasItems: true

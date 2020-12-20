@@ -19,7 +19,15 @@ legLength: 4
 allowLegStep: true
 hovering: false
 mechStepParticles: false
-research: armadillofactory
+commandLimit: 16
+research: {
+    parent: armadillofactory
+    requirements:
+    [
+        {item: RefinedScrap, amount: 200},
+        {item: silicon, amount: 200}
+    ]
+}
 weapons: [
 {
   name: sleggygun
