@@ -1,15 +1,15 @@
 type: ForceProjector
-name: Wulfric Enforcer
-description: A supercharged forcefield projector.
-health: 15000
-size: 5
-radius: 200
+name: Mycrollic Deflector
+description: An unpgraded shield.
+health: 800
+size: 3
+radius: 130
 breakage: 1000
 cooldownNormal: 3
 cooldownLiquid: 5
 useTime: 300
 phaseRadiusBoost: 100
-shieldHealth: 7500
+shieldHealth: 2000
 consumes: {
   power: 8
   items: {
@@ -20,10 +20,11 @@ consumes: {
   }
 }
 requirements: [
-  tungstencarbide/80
-  titanium/240
-  archaium-crystal/60
+  mycrocluster/20
+  titanium/60
+  clc/60
   silicon/60
+  archaium-crystal/10
 ]
 category: effect
-research: wulfric-reconstructor
+research: mycex2

@@ -13,3 +13,4 @@ requirements: [
 ]
 category: production
 research: ssorter
+drawMineItem: false

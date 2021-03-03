@@ -125,7 +125,7 @@ stalloblast:
 	}
 tcbullet:
 	{
-	"type": "ArtilleryBulletType"
+	"type": "basicBulletType"
 	width:8
 	height:16
 	reloadMultiplier: 3

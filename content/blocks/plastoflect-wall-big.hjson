@@ -4,7 +4,7 @@ description: A large wall made of Blastic, with Archaic panelling. Can reflect s
 health: 2800
 size: 2
 hitTime: 5
-maxDamageDeflect: 40
+chanceDeflect: 30
 requirements: [
   blastic/32
   archaium-crystal/8

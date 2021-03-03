@@ -6,6 +6,7 @@ size: 2
 tier: 3
 drillTime: 400
 rotateSpeed: 2
+liquidBoostIntensity: 1
 requirements: [
   clc/15
   copper/20
@@ -13,3 +14,4 @@ requirements: [
 ]
 category: production
 research: clc-press
+drawMineItem: false

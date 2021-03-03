@@ -8,6 +8,7 @@ flying: true
 health: 3000
 mineTier: 15
 buildSpeed: 5
+range: 200
 research: {
     parent: diverter
     requirements:
@@ -24,6 +25,7 @@ weapons: [
   reload: 4
   alternate: true
   inaccuracy: 5
+  range: 200
   bullet: {
     shootEffect: none
     smokeEffect: none

@@ -35,8 +35,8 @@ weapons: [
 	frontColor: e200ff
 	backColor: f290ff
 	damage: 500
-	bulletHeight: 8
-	bulletWidth: 24
+	height: 8
+	width: 24
 	lifetime: 160
 	speed: 3
 	drag: 0

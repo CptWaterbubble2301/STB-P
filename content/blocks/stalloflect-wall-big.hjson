@@ -4,7 +4,7 @@ description: A large wall made of Tungsten Carbide, with Stalloblast panelling. 
 health: 6000
 size: 2
 hitTime: 3
-maxDamageDeflect: 100
+maxDamageDeflect: 80
 requirements: [
   tungstencarbide/32
   stalloblast/8

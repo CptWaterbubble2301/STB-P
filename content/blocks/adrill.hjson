@@ -20,3 +20,4 @@ requirements: [
 ]
 category: production
 research: archaostructor
+drawMineItem: false
