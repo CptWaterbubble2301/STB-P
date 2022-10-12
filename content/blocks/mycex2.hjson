@@ -17,7 +17,7 @@ consumes: {
   }
   liquid: {
     liquid: nanites
-    amount: 1
+    amount: 2.5
   }
 }
 requirements: [
@@ -33,3 +33,4 @@ research: mycex
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: mycrocluster/4
+flameColor: 80e9ff

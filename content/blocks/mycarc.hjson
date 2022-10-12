@@ -12,12 +12,12 @@ consumes: {
   items: {
     items: [
       phase-fabric/1
-      sand/5
+      sand/2.5
     ]
   }
   liquid: {
     liquid: nanites
-    amount: 0.2
+    amount: 1.5
   }
 }
 requirements: [

@@ -1,7 +1,7 @@
 type: GenericSmelter
 name: "Nanite Assembler"
 description: "Assembles Nanites from mycrollite for further use in production"
-liquidCapacity: 200
+liquidCapacity: 1000
 outputLiquid: {
   liquid: nanites
   amount: 200
@@ -9,10 +9,13 @@ outputLiquid: {
 size: 5
 hasPower: true
 hasLiquids: true
-craftTime: 10
+craftTime: 20
 consumes: {
   power: 0.6
-  item: mycrocluster
+  items: {
+items: [
+ mycrocluster/1
+ ]}
 }
 requirements: [
   mycrocluster/20
@@ -25,5 +28,4 @@ category: crafting
 research: mycforge
 idleSound: respawning
 idleSoundVolume: 0.5
-
-
+flameColor: 00d2ff
